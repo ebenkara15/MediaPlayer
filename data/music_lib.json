@@ -1,0 +1,229 @@
+{
+    "artists": 
+    [
+    {
+        "name": "Ninho",
+        "albums": [
+            {
+                "name": "M.I.L.S 3",
+                "date": "2020",
+                "n_tracks":7,
+                "album_img": "img_mils3.png",
+                "tracks_name": [
+                    {
+                        "name": "Intro",
+                        "file": "intro.mp3"
+                    },
+                    {
+                        "name": "Zipette",
+                        "file": "zipette.mp3"
+                    },
+                    {
+                        "name": "Lettre à une femme",
+                        "file": "lettre-a-une-femme.mp3"
+                    },
+                    {
+                        "name": "Bali",
+                        "file": "bali.mp3"
+                    },
+                    {
+                        "name": "Filon",
+                        "file": "filon.mp3"
+                    },
+                    {
+                        "name": "Promo",
+                        "file": "promo.mp3"
+                    },
+                    {
+                        "name": "M.I.L.S 3",
+                        "file": "mils3.mp3"
+                    }
+                ]
+            },
+            {
+                "name": "Destin",
+                "date": 2019,
+                "n_tracks": 8,
+                "album_img": "img_destin.png",
+                "tracks_name": [
+                    {
+                        "name": "Goutte d'eau",
+                        "file": "goutte-d-eau.mp3"
+                    },
+                    {
+                        "name": "La vie qu'on mène",
+                        "file": "la-vie-qu-on-mene.mp3"
+                    },
+                    {
+                        "name": "Tokarev",
+                        "file": "tokarev.mp3"
+                    },
+                    {
+                        "name": "Big Pac",
+                        "file": "big-pac.mp3"
+                    },
+                    {
+                        "name": "NI",
+                        "file": "ni.mp3"
+                    },
+                    {
+                        "name": "Maman ne le sait pas (feat Niska)",
+                        "file": "maman-ne-le-sait-pas.mp3"
+                    },
+                    {
+                        "name": "Putana",
+                        "file": "putana.mp3"
+                    },
+                    {
+                        "name": "Jeune Lossa",
+                        "file": "jeune-lossa.mp3"
+                    }
+                ]
+            }
+        ]   
+    },
+    {
+        "name": "PNL",
+        "albums": [
+            {
+                "name": "Deux Frères",
+                "date": "2019",
+                "n_tracks": 8,
+                "album_img": "img_deuxfreres.png",
+                "tracks_name": [
+                    {
+                        "name": "Déconnecté",
+                        "file": "deconnecte.mp3"
+                    },
+                    {
+                        "name": "Kuta Ubud",
+                        "file": "kuta-ubud.mp3"
+                    },
+                    {
+                        "name": "Au DD",
+                        "file": "au-dd.mp3"
+                    },
+                    {
+                        "name": "Chang",
+                        "file": "chang.mp3"
+                    },
+                    {
+                        "name": "Blanka",
+                        "file": "blanka.mp3"
+                    },
+                    {
+                        "name": "91's",
+                        "file": "91-s.mp3"
+                    },
+                    {
+                        "name": "A l'amoniaque",
+                        "file": "a-l-amoniaque.mp3"
+                    },
+                    {
+                        "name": "Deux Frères",
+                        "file": "deux-freres.mp3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DJ Snake",
+        "albums": [
+            {
+                "name": "Carte Blanche",
+                "date": "2019",
+                "n_tracks": 9,
+                "album_img": "carte_blanche.jpg",
+                "tracks_name": [
+                    {
+                        "name": "Butterfly Effect",
+                        "file": "butterfly-effect.mp3"
+                    },
+                    {
+                        "name": "Enzo",
+                        "file": "enzo.mp3"
+                    },
+                    {
+                        "name": "Loco Contigo",
+                        "file": "loco-contigo.mp3"
+                    },
+                    {
+                        "name": "Made In France",
+                        "file": "made-in-france.mp3"
+                    },
+                    {
+                        "name": "No More",
+                        "file": "no-more.mp3"
+                    },
+                    {
+                        "name": "Paris",
+                        "file": "paris.mp3"
+                    },
+                    {
+                        "name": "Recognize",
+                        "file": "recognize.mp3"
+                    },
+                    {
+                        "name": "Taki-Taki",
+                        "file": "taki-taki.mp3"
+                    },                    
+                    {
+                        "name": "Quiet Storm",
+                        "file": "quiet-storm.mp3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nekfeu",
+        "albums": [
+            {
+                "name": "Les étoiles vagabondes",
+                "date": "2019",
+                "n_tracks": 9,
+                "album_img": "etoiles-vagabondes.jpg",
+                "tracks_name": [
+                    {
+                        "name": "Alunisson",
+                        "file": "alunisson.mp3"
+                    },
+                    {
+                        "name": "Cheum",
+                        "file": "cheum.mp3"
+                    },
+                    {
+                        "name": "Natsukashii",
+                        "file": "natsukashii.mp3"
+                    },
+                    {
+                        "name": "Ecrire",
+                        "file": "ecrire.mp3"
+                    },
+                    {
+                        "name": "Takotsubo",
+                        "file": "takotsubo.mp3"
+                    },
+                    {
+                        "name": "Tricheur (feat Damso)",
+                        "file": "tricheur.mp3"
+                    },
+                    {
+                        "name": "Voyage léger (feat Niska)",
+                        "file": "voyage-leger.mp3"
+                    },
+                    {
+                        "name": "Menteur Menteur",
+                        "file": "menteur-menteur.mp3"
+                    },
+                    {
+                        "name": "Ciel Noir",
+                        "file": "ciel-noir.mp3"
+                    }
+                ]
+            }
+        ]
+    }
+    ]
+}
