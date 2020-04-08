@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MediaPlayer</title>
+    <link rel="stylesheet" href="CSS/mainStyle.css">
+    <link rel="icon" href="icon/favicon.ico" />
+    <script type="text/javascript" src="JS/mainFunctions.js"></script>
+</head>
+
+<body onload="onload_setup()">
+    <div id="main">
+
+    <div id="player">
+        <div id="audioAlbum">
+            <audio id="audioplayer">
+                <source src="">
+            </audio>
+            <img src="/data/img_album/no_album.png" alt="Album en cours de lecture" id="playerAlbum">
+        </div>
+
+        <div id="progress">
+            <span class="songTime" id="fromBeg">--:--</span>
+            <input type="range" value="0" max="" step="any" id="slider">
+            <span class="songTime" id="toEnd">--:--</span>
+        </div>
+
+        <div id="controls">
+            <button class="control" onclick=prevSong() disabled>
+                <img src="icon/icon-rembobiner.svg" alt="Musique précédente">
+            </button>
+            <button class="control" onclick=playPause() disabled>
+                <img src="icon/icon-jouer.svg" alt="Pause" id="playPause_img">
+            </button>
+            <button class="control" onclick=nextSong() disabled>
+                <img src="icon/icon-avance-rapide.svg" alt="Musique suivante">
+            </button>
+        </div>
+
+        <div id="artistDesc">
+            <span class="artistDesc"></span>
+        </div>
+    </div>
+
+    <div id="playlist">
+        <img src="icon/cross_icon.svg" onclick="deletePlaylist(this)" id="eraserPlaylist"></img>
+    </div>
+
+    <div id="navigation">
+    </div>
+    </div>
+</body>

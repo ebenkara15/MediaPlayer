@@ -1,0 +1,330 @@
+body{
+  background-color: #222222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#navigation{
+  overflow: auto;
+  position: fixed;
+  top: 2%;
+  width: 70%;
+  height: 95%;
+  border: 1px solid  blanchedalmond;
+  border-radius: 15px;
+}
+
+#playlist{
+    position: fixed;
+    display: block;
+    left: 71%;
+    overflow: auto;
+    bottom: 2.75%;
+    width: 28.5%;
+    height: 45%;
+    border: 1px solid  blanchedalmond;
+    border-radius: 15px;
+}
+
+#player{
+    display: block;
+    position: fixed;
+    text-align: center;
+    top: 2%;
+    left: 71%;
+    width: 28.5%;
+    height: 48%;
+    border: 1px solid  blanchedalmond;
+    border-radius: 15px;
+}
+
+#audioAlbum{
+  margin: 5px;
+}
+
+#progress{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  max-height: 20%;
+  width: 5;
+}
+
+#controls{
+  text-align: center;
+}
+
+
+.songTime{
+  margin: 5px auto;
+  font-size: 0.75em;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.control{
+  background-color: #222222;
+  border-radius: 10px;
+  border: none;
+  margin: 5px auto;
+  cursor: pointer;
+  transition: all 10 ms;
+  outline: none;
+}
+
+.control:hover{
+  box-shadow: 0 4px #ababab;
+  background-color: #cccccc;
+}
+
+.control:active{
+  transform: translate(0,2px);
+  box-shadow: 0 0 #ababab;
+}
+
+#playerAlbum{
+  display: block;
+  margin: 0 auto;
+  height: 12em;
+}
+
+#artistDesc{
+  display: block;
+  margin: 0 auto;
+  font-size: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+
+#slider {
+  -webkit-appearance: none;
+  width: 75%;
+  border-radius: 5px;  
+  background: #a5a5a5;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin: 10px auto;
+}
+
+#slider:hover{
+  box-shadow: 0 0 5px #cccccc;
+  cursor: pointer;
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; 
+  background: white;
+  cursor: pointer;
+}
+
+#slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+#slider::-moz-range-progress{
+  height: 8px;
+  background-color: ivory;
+}
+
+.divArtistNav{
+  width: 90%;
+  margin: 10px auto;
+  padding: 0 10px;
+  color: white;
+  font-size: 35px;
+  font-weight: lighter;
+  background-color: #a5a5a5;
+  box-shadow: 0 0 5px #cccccc;
+  transition: all 0.5s;
+}
+
+.divArtistNav:hover{
+  cursor: pointer;
+  background-color: #a5a5a5;
+  box-shadow: 0 0 5px #cccccc;
+  box-shadow: inset 0 0 5px #cccccc;
+}
+
+.divAlbum{
+  height: fit-content;
+  display: block;
+  padding: 5px 0;
+  border-top: 0.5px solid white;
+  width: 100%;
+  min-height: 10px;
+  background-color: #a5a5a5;
+}
+.divDescAlbum{
+  display: block;
+  /*align-items: flex-start;*/
+  padding: 5px 0;
+  width: 100%;
+  min-height: 10px;
+  background-color: #a5a5a5;
+}
+
+.spanAlbumName{
+  margin: auto 5px;
+  font-size: 0.8em;
+  font-variant: small-caps;
+}
+
+.spanAlbumDate{
+  margin: auto 5px;
+  font-size: 10px;
+}
+
+.imgAlbum{
+  margin: auto 5px;
+  height: 2em;
+  width: auto;
+}
+
+.spanTrackNumber{
+  margin: 5px;
+  font-size: 15px;
+  font-variant: small-caps;
+}
+
+.spanTrackTitle{
+  margin: 5px;
+  font-size: 25px;
+  font-variant: small-caps;
+  font-weight: lighter;
+}
+
+.trackDiv{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: #222222;
+}
+
+.trackDiv:hover{
+  background-color: rgb(90, 90, 90);
+  color: white;
+  border-radius: 5px;
+}
+
+.tracksContainer{
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: #222222;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.buttonDivTrack{
+  order: 1;
+  align-self: flex-end;
+}
+
+.buttonTrack{
+  margin: 10px;
+  height: 25px;
+  /*align-self: flex-end;*/
+}
+
+.buttonTrack:hover{
+  border-radius: 28px;
+  background-color: white;
+}
+
+.buttonTrackPlaylist{
+  margin-bottom: 10px;
+  margin-right: 10px ;
+  padding: 2px;
+  height: 25px;
+  /*align-self: flex-end;*/
+}
+
+.buttonTrackPlaylist:hover{
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 3px 1px grey;
+  cursor: pointer;
+}
+
+.buttonTrackPlaylist:active{
+  border-radius: 5px;
+  background-color: rgb(202, 202, 202);
+  transform: translate(3px,1px);
+  box-shadow: 0px 0px;
+  cursor: pointer;
+}
+
+.trackDivPlaylist{
+  display: block;
+  height: 10%;
+  margin: 5px auto;
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: #222222;
+}
+
+.trackDivPlaylist:hover{
+  background-color: rgb(90, 90, 90);
+  color: white;
+  border-radius: 5px;
+}
+
+.spanTrackTitlePlaylist{
+  margin: 5px;
+  width: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: lighter;
+}
+
+#eraserPlaylist{
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px;
+  height: 20px;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: lighter;
+  border-radius: 20px;
+  float: right;
+}
+
+.trackDivPlaylistOnrun{
+  display: block;
+  height: 10%;
+  margin: 5px auto;
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(252, 205, 76, 0.952);
+  color: #222222;
+}
+
+#eraserPlaylist:hover{
+  background-color: red;
+  box-shadow: 2px 0.5px grey;
+}
+
+#eraserPlaylist:active{
+  box-shadow: 0px 0px;
+  transform: translate(2px, 0.5px);
+}
+
