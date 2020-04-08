@@ -1,5 +1,5 @@
 # MediaPlayer
-MediaPlayer développé par Erwan BENKARA et Fayçal TAHA.
+MediaPlayer développé par Erwan BENKARA et Fayçal TAHA.<br>
 Pour une description complète voir le [Rapport d'utilisation et de développement](#)
 
 ## Note importante
