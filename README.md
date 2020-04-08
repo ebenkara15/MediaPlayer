@@ -1,5 +1,5 @@
 # MediaPlayer
 MediaPlayer développé par Erwan BENKARA et Fayçal TAHA.
-Pour une description complète voir le rapport disponible dans ce dépôt: [Rapport Media Player]()
+Pour une description complète voir le [Rapport d'utilisation et de développement](#)
 
 Ce dépôt a été crée que très récemment. En effet, nous n'avons pas utilisé GitHub pour versionner nos fichiers puisque nous avions déjà mis en pl. Pour autant, chacun a apporté une contribution notable à ce projet.
