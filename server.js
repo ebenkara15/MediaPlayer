@@ -11,5 +11,10 @@ app.use('/data', express.static('data'));
 app.get('/music_lib', function(req, res) {
     res.sendFile(__dirname+'/data/music_lib.json');
 });
+let port = process.env.PORT;
 
-app.listen(8080);
+if (port == null || port == ""){
+    port = 8000;
+}
+
+app.listen(port);
